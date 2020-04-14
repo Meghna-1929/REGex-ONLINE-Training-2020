@@ -1,0 +1,29 @@
+Ques-1 What should be the output? ( 3 + 4 ** 6 - 9 * 10 / 2 )
+Ans-1 4054.0
+
+Ques-2 Let say I have, some string "hello this side regex". Find out the count of the total vowels
+Ans-2  vowels='aeiou'
+       count=0
+       string='hello this side regex'
+       for s in string:
+       	if s in vowels: count=count+1
+       count
+       OUTPUT
+        7
+Ques-3 Find out the area of triangle
+Ans-3 b=float(input("please enter a number:"))
+      print("value of breadth ",b)
+      h=float(input("please enter a number"))
+      print("value of heiht",h)
+      a=1/2*b*h
+      a
+      OUTPUT
+      please enter a number:2
+      please enter a number3
+      value of heiht 3.0
+      3.0
+Ques-4 Print the calendar on the terminal. If you give the year.
+Ans-4  import calendar
+       yy=int(input("please enter the year"))
+       mm=int(input("please enter month"))
+       print(calendar.month(yy, mm))
